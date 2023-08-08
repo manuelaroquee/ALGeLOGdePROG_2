@@ -15,9 +15,9 @@ que:
        escreva("Qual o valor das suas compras? ")
        leia(preco)
     
-       se (sexo == "feminino")
+       se (sexo == "feminino") {
        escreva("R$",preco-(preco*0.13))
-       senao escreva("R$",preco-(preco*0.05))
+       } senao escreva("R$",preco-(preco*0.05))
 
   }
 }
