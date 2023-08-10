@@ -4,7 +4,6 @@ classificação desse terreno, de acordo com a lista abaixo:
 - Abaixo de 100m2 = TERRENO POPULAR
 - Entre 100m2 e 500m2 = TERRENO MASTER
 - Acima de 500m2 = TERRENO VIP*/
-
 funcao inicio() {
 real largura, comprimento, area
 cadeia classificacao
