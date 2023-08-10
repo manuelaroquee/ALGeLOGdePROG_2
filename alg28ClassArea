@@ -1,0 +1,19 @@
+programa{
+funcao inicio() {
+real largura, comprimento, area
+cadeia classificacao
+
+escreva("Digite a largura do terreno em metros: ")
+leia(largura)
+escreva("Digite o comprimento do terreno em metros: ")
+leia(comprimento)
+area = largura * comprimento
+escreva("Área do terreno: ", area, " m2\n")
+se (area < 100) {
+classificacao = "TERRENO POPULAR" }
+senao se (area >= 100 e area <= 500) {
+classificacao = "TERRENO MASTER" }
+senao {
+classificacao = "TERRENO VIP" }
+escreva("Classificação do terreno: ", classificacao) }
+}
