@@ -15,7 +15,7 @@ mostrando uma mensagem no final, de acordo com a média atingida:
 
     se (media <=4.9) {
       escreva("REPROVADO")
-    } senao se (media >5 e media <6.9) { 
+    } senao se (media >5 e media <6.8) { 
     escreva ("RECUPERAÇÃO")
   } senao escreva ("APROVADO")
 }
