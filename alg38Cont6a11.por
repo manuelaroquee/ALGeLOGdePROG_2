@@ -6,7 +6,7 @@ programa {
           inteiro contador = 6
 
           enquanto (contador <= 11) {
-		escreva(contador,"\n")
+		escreva(contador," ")
 		contador = contador + 1
 	}
 	escreva("Acabou!") }
