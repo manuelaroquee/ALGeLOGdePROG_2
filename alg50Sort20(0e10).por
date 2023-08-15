@@ -8,7 +8,7 @@ inclua biblioteca Util --> u
     inteiro numeroSorteado, numero=0, acima5=0, divisivel3=0
 
       escreva("Números sorteados: ")
-      enquanto (numero > 20) {
+      enquanto (numero <= 20) {
       numeroSorteado = u.sorteia(0,20)
       escreva(numeroSorteado, " ")
 
@@ -20,6 +20,6 @@ inclua biblioteca Util --> u
 
       numero++
     }
-    escreva("\nNumeros acima de 5: ", acima5, "\nNúmeros divisíveis por 3: ", divisivel3)
+    escreva("\nQuantidade de numeros acima de 5: ", acima5, "\nQuantidade de números divisíveis por 3: ", divisivel3)
   }
 }
