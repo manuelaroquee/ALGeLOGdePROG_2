@@ -1,13 +1,11 @@
-programa
-{
+programa {
  /*51) Faça um aplicativo que leia o preço de 8 produtos. No final, mostre na tela
 qual foi o maior e qual foi o menor preço digitados.*/
 	
 inclua biblioteca Matematica --> m
-	funcao inicio()
- {
+	funcao inicio() {
 		
- inteiro contador = 1, acumulador = 0
+   inteiro contador = 1, acumulador = 0
 	      real preco, maior = 0, menor = 0
 
 	  enquanto(contador <= 8) {
